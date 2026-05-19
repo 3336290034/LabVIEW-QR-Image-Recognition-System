@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<w:glossaryDocument xmlns:wpc="http://schemas.microsoft.com/office/word/2010/wordprocessingCanvas" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" xmlns:o="urn:schemas-microsoft-com:office:office" xmlns:r="http://schemas.openxmlformats.org/officeDocument/2006/relationships" xmlns:m="http://schemas.openxmlformats.org/officeDocument/2006/math" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:wp14="http://schemas.microsoft.com/office/word/2010/wordprocessingDrawing" xmlns:wp="http://schemas.openxmlformats.org/drawingml/2006/wordprocessingDrawing" xmlns:w="http://schemas.openxmlformats.org/wordprocessingml/2006/main" xmlns:w14="http://schemas.microsoft.com/office/word/2010/wordml" xmlns:w10="urn:schemas-microsoft-com:office:word" xmlns:w15="http://schemas.microsoft.com/office/word/2012/wordml" xmlns:wpg="http://schemas.microsoft.com/office/word/2010/wordprocessingGroup" xmlns:wpi="http://schemas.microsoft.com/office/word/2010/wordprocessingInk" xmlns:wne="http://schemas.microsoft.com/office/word/2006/wordml" xmlns:wps="http://schemas.microsoft.com/office/word/2010/wordprocessingShape" xmlns:wpsCustomData="http://www.wps.cn/officeDocument/2013/wpsCustomData" mc:Ignorable="w14 w15 wp14">
+  <w:docParts>
+    <w:docPart>
+      <w:docPartPr>
+        <w:name w:val="{2946371d-d56d-4eb5-af99-86fcb05e13a8}"/>
+        <w:style w:val=""/>
+        <w:category>
+          <w:name w:val="常规"/>
+          <w:gallery w:val="placeholder"/>
+        </w:category>
+        <w:types>
+          <w:type w:val="bbPlcHdr"/>
+        </w:types>
+        <w:behaviors>
+          <w:behavior w:val="content"/>
+        </w:behaviors>
+        <w:description w:val=""/>
+        <w:guid w:val="{2946371d-d56d-4eb5-af99-86fcb05e13a8}"/>
+      </w:docPartPr>
+      <w:docPartBody>
+        <w:p w14:paraId="477BF1B0">
+          <w:pPr>
+            <w:rPr>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+          </w:pPr>
+          <w:r>
+            <w:rPr>
+              <w:rStyle w:val="4"/>
+              <w:rFonts w:hint="eastAsia"/>
+            </w:rPr>
+            <w:t>选择一项。</w:t>
+          </w:r>
+        </w:p>
+      </w:docPartBody>
+    </w:docPart>
+  </w:docParts>
+</w:glossaryDocument>

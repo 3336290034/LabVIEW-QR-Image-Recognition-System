@@ -1,0 +1,600 @@
+Windows PowerShell
+版权所有（C） Microsoft Corporation。保留所有权利。
+
+安装最新的 PowerShell，了解新功能和改进！https://aka.ms/PSWindows
+
+PS C:\Users\33362> cd "D:/Code/OpenCV/qr_decoder_project"
+PS D:\Code\OpenCV\qr_decoder_project> g++ -o output/test_decoder.exe test/test_decoder.cpp -Isrc -ID:/Code/OpenCV/install/include -LD:/Code/OpenCV/install/x64/mingw/lib -Loutput -lQRDecoder -lopencv_core4140 -lopencv_imgproc4140 -lopencv_imgcodecs4140 -lopencv_videoio4140 -lopencv_highgui4140 -O2 -std=c++17
+PS D:\Code\OpenCV\qr_decoder_project> output/test_decoder.exe --dir TestData/Pictures
+InitDetector OK
+
+=== Directory Test ===
+
+Found 174 images
+
+[1/174] opencv_err_correct_1M.png: 1 QR codes found
+  QR#1: "New" (0,0) 21x21
+[2/174] opencv_err_correct_2L.png: 0 QR codes found
+[3/174] opencv_issue_21287.png: 1 QR codes found
+  QR#1: "PK
+" (7,7) 274x274
+[4/174] opencv_issue_22892.png: 0 QR codes found
+[5/174] opencv_issue_24011.jpg: 2 QR codes found
+  QR#1: "18" (20,123) 494x510
+  QR#2: "17" (697,131) 509x510
+[6/174] opencv_issue_24450.png: 1 QR codes found
+  QR#1: "銇撱倱銇仭銇笘鐣? (13,9) 620x617
+[7/174] opencv_issue_3478.png: 0 QR codes found
+[8/174] opencv_kanji.jpg: 1 QR codes found
+  QR#1: "銇濄伄椐呫仹銇浕鍫便倰鎵便亞" (76,156) 220x272
+[9/174] opencv_link_github_ocv.jpg: 1 QR codes found
+  QR#1: "https://github.com/opencv/opencv" (192,11) 290x238
+[10/174] opencv_link_ocv.jpg: 0 QR codes found
+[11/174] opencv_link_wiki_cv.jpg: 1 QR codes found
+  QR#1: "https://en.wikipedia.org/wiki/Computer_vision" (22,109) 339x288
+[12/174] opencv_qrcode_near_the_end.jpg: 1 QR codes found
+  QR#1: "https://github.com/opencv/opencv" (92,56) 198x197
+[13/174] opencv_russian.jpg: 1 QR codes found
+  QR#1: "小褗械褕褜 卸械 械褖褢 褝褌懈褏 屑褟谐泻懈褏 褎褉邪薪褑褍蟹泻懈褏 斜褍谢芯泻 写邪 胁褘锌械泄 褔邪褞." (221,139) 280x271
+[14/174] opencv_umlaut.png: 1 QR codes found
+  QR#1: "SPC
+0200
+1
+CH043000523022244901H
+S
+Emil Frey Betriebs AG
+Bahnhofstrasse 17
+
+5745
+Safenwil
+CH
+
+
+
+
+
+
+
+3228.50
+CHF
+S
+Sixt rent a Car AG
+M眉llheimstrasse 195
+
+4057
+Basel
+CH
+QRR
+267274035810104830009639430
+Kdnr 963943, 03581-0104830
+EPD" (3,4) 158x157
+[15/174] opencv_version_1_down.jpg: 0 QR codes found
+[16/174] opencv_version_1_left.jpg: 0 QR codes found
+[17/174] opencv_version_1_right.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JX" (169,127) 237x159
+[18/174] opencv_version_1_top.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JX" (202,157) 236x231
+[19/174] opencv_version_1_up.jpg: 0 QR codes found
+[20/174] opencv_version_2_down.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^" (130,143) 291x167
+[21/174] opencv_version_2_left.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^" (194,101) 314x198
+[22/174] opencv_version_2_right.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^" (71,205) 148x216
+[23/174] opencv_version_2_top.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^" (175,184) 227x224
+[24/174] opencv_version_2_up.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^" (135,230) 327x198
+[25/174] opencv_version_3_down.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MU" (99,152) 343x211
+[26/174] opencv_version_3_left.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MU" (284,85) 312x217
+[27/174] opencv_version_3_right.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MU" (99,158) 202x281
+[28/174] opencv_version_3_top.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MU" (122,164) 233x227
+[29/174] opencv_version_3_up.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MU" (171,243) 294x175
+[30/174] opencv_version_4_down.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MUGaSmS5&fh_Q&bCZz" (162,119) 292x208
+[31/174] opencv_version_4_left.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MUGaSmS5&fh_Q&bCZz" (227,70) 304x202
+[32/174] opencv_version_4_right.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MUGaSmS5&fh_Q&bCZz" (97,145) 321x246
+[33/174] opencv_version_4_top.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MUGaSmS5&fh_Q&bCZz" (290,146) 240x235
+[34/174] opencv_version_4_up.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MUGaSmS5&fh_Q&bCZz" (119,227) 278x182
+[35/174] opencv_version_5_down.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MUGaSmS5&fh_Q&bCZz=8g4GB2+#7%^Tw&Wz&c3VT*h" (120,157) 288x205
+[36/174] opencv_version_5_left.jpg: 0 QR codes found
+[37/174] opencv_version_5_right.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MUGaSmS5&fh_Q&bCZz=8g4GB2+#7%^Tw&Wz&c3VT*h" (106,126) 215x307
+[38/174] opencv_version_5_top.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MUGaSmS5&fh_Q&bCZz=8g4GB2+#7%^Tw&Wz&c3VT*h" (187,141) 243x233
+[39/174] opencv_version_5_up.jpg: 1 QR codes found
+  QR#1: "aQqdqecq%hre3?JXcDxx#PqLG_29G*R^&f?bD6C5qam+Y_MUGaSmS5&fh_Q&bCZz=8g4GB2+#7%^Tw&Wz&c3VT*h" (119,244) 269x198
+[40/174] topstar.png: 1 QR codes found
+  QR#1: "https://qr.alipay.com/fkx04726bgh0tiz2od6yz5f" (171,371) 184x177
+[41/174] vx_test001.png: 1 QR codes found
+  QR#1: "https://u.wechat.com/MGO-3eH3Ba89o7nK68ZSVys?s=4" (475,282) 223x199
+[42/174] zxing1_1.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (154,137) 312x261
+[43/174] zxing1_10.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (174,144) 181x175
+[44/174] zxing1_11.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (170,127) 246x233
+[45/174] zxing1_12.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (306,199) 183x170
+[46/174] zxing1_13.png: 1 QR codes found
+  QR#1: "http://google.com/gwt/n?u=bluenile.com" (225,198) 138x131
+[47/174] zxing1_14.png: 1 QR codes found
+  QR#1: "http://google.com/gwt/n?u=bluenile.com" (226,184) 164x154
+[48/174] zxing1_15.png: 1 QR codes found
+  QR#1: "http://google.com/gwt/n?u=bluenile.com" (218,156) 173x161
+[49/174] zxing1_16.png: 1 QR codes found
+  QR#1: "Sean Owen
+srowen@google.com
+917-364-2918
+http://awesome-thoughts.com" (159,110) 282x262
+[50/174] zxing1_17.png: 1 QR codes found
+  QR#1: "Sean Owen
+srowen@google.com
+917-364-2918
+http://awesome-thoughts.com" (191,168) 215x202
+[51/174] zxing1_18.png: 1 QR codes found
+  QR#1: "Sean Owen
+srowen@google.com
+917-364-2918
+http://awesome-thoughts.com" (161,119) 268x248
+[52/174] zxing1_19.png: 1 QR codes found
+  QR#1: "Sean Owen
+srowen@google.com
+917-364-2918
+http://awesome-thoughts.com" (219,214) 183x169
+[53/174] zxing1_2.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (205,181) 215x201
+[54/174] zxing1_20.png: 1 QR codes found
+  QR#1: "Sean Owen
+srowen@google.com
+917-364-2918
+http://awesome-thoughts.com" (166,126) 248x230
+[55/174] zxing1_3.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (156,133) 288x261
+[56/174] zxing1_4.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (178,145) 181x167
+[57/174] zxing1_5.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (218,159) 195x182
+[58/174] zxing1_6.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (201,147) 233x213
+[59/174] zxing1_7.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (234,181) 178x164
+[60/174] zxing1_8.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (212,133) 237x225
+[61/174] zxing1_9.png: 1 QR codes found
+  QR#1: "MEBKM:URL:http\://en.wikipedia.org/wiki/Main_Page;;" (194,140) 206x198
+[62/174] zxing2_1.png: 1 QR codes found
+  QR#1: "When we at WRT talk about \"text,\" we are generally talking about a particular kind of readable information encoding - and readable is a complex proposition. Text may be stylized in a way we are unfamiliar with, as in blackletter - it may be interspersed with some markup we don\'t understand, such as HTML - it may be be a substitution system we aren\'t familiar with, such as braille or morse code - or it may be a system that, while technically human-readable, isn\'t particularly optimized for reading by humans, as with barcodes (although barcodes can be read)." (15,15) 372x372
+[63/174] zxing2_10.png: 1 QR codes found
+  QR#1: "Google 銉儛銈ゃ儷
+http://google.jp" (0,0) 76x76
+[64/174] zxing2_11.png: 1 QR codes found
+  QR#1: "BEGIN:VCARD
+N:Kennedy;Steve
+TEL:+44 (0)7775 755503
+ADR;HOME:;;Flat 2, 43 Howitt Road, Belsize Park;London;;NW34LU;UK
+ORG:NetTek Ltd;
+TITLE:Consultant
+EMAIL:steve@nettek.co.uk
+URL:www.nettek.co.uk
+EMAIL;IM:MSN:steve@gbnet.net
+NOTE:Testing 1 2 3
+BDAY:19611105
+END:VCARD" (0,0) 130x130
+[65/174] zxing2_12.png: 1 QR codes found
+  QR#1: "The 2005 USGS aerial photography of the Washington Monument is censored." (6,5) 244x243
+[66/174] zxing2_13.png: 0 QR codes found
+[67/174] zxing2_14.png: 1 QR codes found
+  QR#1: "http://bbc.co.uk/programmes" (12,12) 404x404
+[68/174] zxing2_15.png: 1 QR codes found
+  QR#1: "In 25 words or less in the comments, below, tell us how QR codes will make the world less ordinary." (168,39) 302x305
+[69/174] zxing2_16.png: 1 QR codes found
+  QR#1: "[澶栧伌QR銈炽兗銉塢
+
+*锞€锞烇緦锞烇緳QR*
+http://d-qr.net/ex/" (21,21) 213x214
+[70/174] zxing2_17.png: 1 QR codes found
+  QR#1: "韫澕缈孮R
+http://d-qr.net/ex/" (18,18) 181x181
+[71/174] zxing2_18.png: 1 QR codes found
+  QR#1: "*韫澕缈孮R*
+http://d-qr.net/ex/       " (18,18) 181x181
+[72/174] zxing2_19.png: 1 QR codes found
+  QR#1: "*韫澕缈孮R*
+http://d-qr.net/ex/         " (17,17) 181x181
+[73/174] zxing2_2.png: 1 QR codes found
+  QR#1: "LANDBYASCARC   PERCEPTIBLEC EEK,OOZI GITSWAYTHROU  AWILDERNESSOFBESUPPOSED,I  CANT,ORATL ASTDWARFISH.NO REESOFANYM  NITUDEARETOBESOMEMISERA  EFRAMEBUIL I GS,TENANTED, U INGSUMMER   THEFUGITIVE;BUTTHEWHO  ISLAND,WI H   EXCEPTIONOFT   W STERNPOI  ,ANDALINEOFLLIAMLEGR   .HEWASOF N    ENTHUGUENOTF    Y ANDHADON  BEENWEALTHTIONCONSE  ENTUPONH SD   STERS,HELEFTNE   LE NS,THEC   OFHISFOREOUTHCARO   A.THISISLA    AVERYSINGULARO    TCONSISTSO  ITTLEELSEDSAQUART   FAMILE. TI   PARATEDFROMTHEMA   AN BYASCAR   YPERCEPTERESORT     MARSH EN   EVEGETATION,ASMIGH   SU POSED,   CANT,ORATREMITY,      ORT OULTRIESTANDS,ANDWHEREARESOM MIS      FRAMEBUIFEVER,MAYBE      INDEED,                TO;BUTT      EISLAND,WITNYYEARSAGO,IC    ACTED                    LLIAM    AND.HEWASOFANNESHADREDUCEDHIM OWA                       IONC NSEQUENTUPONHISDSIDENCEATSULLIVA \'S                          HC ROLINA.THISISLANOUTTHR    LESLON .        THATN  OINTE        U RTEROF    E.ITISTHROU       ERNE       DSANDSLI  ,AFAVOR        TOFT       HEN.T" (15,15) 484x484
+[74/174] zxing2_20.png: 1 QR codes found
+  QR#1: "*韫澕缈孮R*
+http://d-qr.net/ex/    " (11,11) 181x181
+[75/174] zxing2_21.png: 1 QR codes found
+  QR#1: "*韫澕缈孮R*
+http://d-qr.net/ex/        " (11,10) 179x178
+[76/174] zxing2_22.png: 1 QR codes found
+  QR#1: "http://www.hotpepper.jp/mobile/cgi-bin/MBLC80100.cgi?SA=00&Z=AG&vos=hpp064&uid=NULLGWDOCOMO" (9,7) 194x192
+[77/174] zxing2_23.png: 1 QR codes found
+  QR#1: "http://aniful.jp/pr/  " (60,11) 117x117
+[78/174] zxing2_24.png: 1 QR codes found
+  QR#1: "*韫澕缈孮R*
+http://d-qr.net/ex/      " (7,6) 90x90
+[79/174] zxing2_25.png: 1 QR codes found
+  QR#1: "MEBKM:TITLE:;URL:http://d.kaywa.com/2020400102;;" (7,7) 94x93
+[80/174] zxing2_26.png: 1 QR codes found
+  QR#1: "<锞冿緸锝伙緸锝诧緷QR>
+锝诧緱锝斤緞鍏ャ倞锝讹緱锝癚R锝猴桨锞勶緸
+http://d-qr.net/ex/ " (9,9) 91x91
+[81/174] zxing2_27.png: 1 QR codes found
+  QR#1: "*韫澕缈孮R*
+http://d-qr.net/ex/ " (7,8) 96x96
+[82/174] zxing2_28.png: 1 QR codes found
+  QR#1: "http://www.webtech.co.jp/k/" (130,82) 180x169
+[83/174] zxing2_29.png: 1 QR codes found
+  QR#1: "http://live.fdgm.jp/u/event/hype/hype_top.html
+
+MEBKM:TITLE:hype銉儛銈ゃ儷;URL:http楼://live.fdgm.jp/u/event/hype/hype_top.html;;" (9,9) 96x96
+[84/174] zxing2_30.png: 1 QR codes found
+  QR#1: "MECARD:N:鐨滅宀?;" (52,52) 247x247
+[85/174] zxing2_31.png: 1 QR codes found
+  QR#1: "浠婂害銇儛銉笺偢銉с兂銇с伅鏂囩珷銇殫鍙峰寲銇屻仹銇嶃伨銇欍€? (35,97) 213x213
+[86/174] zxing2_32.png: 1 QR codes found
+  QR#1: "BEGIN:VCARD
+N:Kennedy;Steve
+TEL:+44 (0)7775 755503
+ADR;HOME:;;Flat 2, 43 Howitt Road, Belsize Park;London;;NW34LU;UK
+ORG:NetTek Ltd;
+TITLE:Consultant
+EMAIL:steve@nettek.co.uk
+URL:www.nettek.co.uk
+EMAIL;IM:MSN:steve@gbnet.net
+NOTE:Testing 1 2 3
+BDAY:19611105
+END:VCARD" (0,0) 65x65
+[87/174] zxing2_33.png: 0 QR codes found
+[88/174] zxing2_34.png: 1 QR codes found
+  QR#1: "http://www.google.com/" (12,12) 73x73
+[89/174] zxing2_35.png: 1 QR codes found
+  QR#1: "http://www.google.com/" (12,12) 73x73
+[90/174] zxing2_36.png: 1 QR codes found
+  QR#1: "Morden" (27,27) 147x146
+[91/174] zxing2_4.png: 1 QR codes found
+  QR#1: "http://wwws.keihin.ktr.mlit.go.jp/keitai/" (306,252) 209x203
+[92/174] zxing2_5.png: 1 QR codes found
+  QR#1: "2021200000" (140,121) 50x51
+[93/174] zxing2_6.png: 1 QR codes found
+  QR#1: "http://d.kaywa.com/20207100" (502,125) 442x432
+[94/174] zxing2_7.png: 1 QR codes found
+  QR#1: "BIZCARD:N:Todd;X:Ogasawara;T:Tech Geek;C:MobileViews.com;A:MobileTown USA;E:editor@mobileviews.com;;" (27,197) 166x166
+[95/174] zxing2_8.png: 1 QR codes found
+  QR#1: "http://staticrooster.com" (100,75) 137x136
+[96/174] zxing2_9.png: 1 QR codes found
+  QR#1: "Morden" (27,27) 147x146
+[97/174] zxing3_01.png: 1 QR codes found
+  QR#1: "http://arnaud.sahuguet.com/graffiti/test.php?ll=-74.00309961503218,40.74102573163046,0" (36,32) 186x178
+[98/174] zxing3_02.png: 1 QR codes found
+  QR#1: "http://arnaud.sahuguet.com/graffiti/test.php?ll=-74.00309961503218,40.74102573163046,0" (39,44) 162x156
+[99/174] zxing3_03.png: 1 QR codes found
+  QR#1: "http://arnaud.sahuguet.com/graffiti/test.php?ll=-74.00309961503218,40.74102573163046,0" (59,93) 122x120
+[100/174] zxing3_04.png: 1 QR codes found
+  QR#1: "http://arnaud.sahuguet.com/graffiti/test.php?ll=-74.00309961503218,40.74102573163046,0" (56,32) 162x181
+[101/174] zxing3_05.png: 1 QR codes found
+  QR#1: "http://arnaud.sahuguet.com/graffiti/test.php?ll=-74.00309961503218,40.74102573163046,0" (64,62) 121x120
+[102/174] zxing3_06.png: 1 QR codes found
+  QR#1: "http://arnaud.sahuguet.com/graffiti/test.php?ll=-74.00309961503218,40.74102573163046,0" (42,34) 171x172
+[103/174] zxing3_07.png: 1 QR codes found
+  QR#1: "http://arnaud.sahuguet.com/graffiti/test.php?ll=-74.00309961503218,40.74102573163046,0" (39,38) 179x155
+[104/174] zxing3_08.png: 1 QR codes found
+  QR#1: "http://arnaud.sahuguet.com/graffiti/test.php?ll=-74.00309961503218,40.74102573163046,0" (33,33) 191x192
+[105/174] zxing3_09.png: 1 QR codes found
+  QR#1: "http://arnaud.sahuguet.com/graffiti/test.php?ll=-74.00309961503218,40.74102573163046,0" (39,45) 177x186
+[106/174] zxing3_10.png: 1 QR codes found
+  QR#1: "MECARD:N:Google 411,;TEL:18665881077;;" (51,40) 142x143
+[107/174] zxing3_11.png: 1 QR codes found
+  QR#1: "MECARD:N:Google 411,;TEL:18665881077;;" (28,15) 172x193
+[108/174] zxing3_12.png: 1 QR codes found
+  QR#1: "MECARD:N:Google 411,;TEL:18665881077;;" (56,21) 162x160
+[109/174] zxing3_13.png: 1 QR codes found
+  QR#1: "MECARD:N:Google 411,;TEL:18665881077;;" (81,59) 96x100
+[110/174] zxing3_14.png: 1 QR codes found
+  QR#1: "MECARD:N:Google 411,;TEL:18665881077;;" (32,53) 168x160
+[111/174] zxing3_15.png: 1 QR codes found
+  QR#1: "MECARD:N:Google 411,;TEL:18665881077;;" (45,32) 156x163
+[112/174] zxing3_16.png: 1 QR codes found
+  QR#1: "MECARD:N:Google 411,;TEL:18665881077;;" (38,34) 148x180
+[113/174] zxing3_17.png: 1 QR codes found
+  QR#1: "MECARD:N:Google 411,;TEL:18665881077;;" (24,18) 200x217
+[114/174] zxing3_18.png: 1 QR codes found
+  QR#1: "UI office hours signup
+http://www.corp.google.com/sparrow/ui_office_hours/
+" (32,48) 159x148
+[115/174] zxing3_19.png: 1 QR codes found
+  QR#1: "UI office hours signup
+http://www.corp.google.com/sparrow/ui_office_hours/
+" (52,32) 133x140
+[116/174] zxing3_20.png: 1 QR codes found
+  QR#1: "UI office hours signup
+http://www.corp.google.com/sparrow/ui_office_hours/
+" (33,56) 162x165
+[117/174] zxing3_21.png: 1 QR codes found
+  QR#1: "UI office hours signup
+http://www.corp.google.com/sparrow/ui_office_hours/
+" (29,26) 180x142
+[118/174] zxing3_22.png: 1 QR codes found
+  QR#1: "UI office hours signup
+http://www.corp.google.com/sparrow/ui_office_hours/
+" (43,23) 160x191
+[119/174] zxing3_23.png: 1 QR codes found
+  QR#1: "UI office hours signup
+http://www.corp.google.com/sparrow/ui_office_hours/
+" (55,42) 117x156
+[120/174] zxing3_24.png: 1 QR codes found
+  QR#1: "UI office hours signup
+http://www.corp.google.com/sparrow/ui_office_hours/
+" (53,20) 147x156
+[121/174] zxing3_25.png: 1 QR codes found
+  QR#1: "UI office hours signup
+http://www.corp.google.com/sparrow/ui_office_hours/
+" (47,48) 169x160
+[122/174] zxing3_26.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (48,38) 170x141
+[123/174] zxing3_27.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (50,55) 142x131
+[124/174] zxing3_28.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (52,69) 101x101
+[125/174] zxing3_29.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (76,54) 120x135
+[126/174] zxing3_30.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (44,65) 127x128
+[127/174] zxing3_31.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (44,60) 167x132
+[128/174] zxing3_32.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (36,52) 130x132
+[129/174] zxing3_33.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (52,49) 140x138
+[130/174] zxing3_34.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (62,64) 146x144
+[131/174] zxing3_35.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (12,68) 160x158
+[132/174] zxing3_36.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (57,65) 137x134
+[133/174] zxing3_37.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (30,14) 163x165
+[134/174] zxing3_38.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (48,50) 163x167
+[135/174] zxing3_39.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (44,63) 155x161
+[136/174] zxing3_40.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (32,48) 177x160
+[137/174] zxing3_41.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (36,43) 164x159
+[138/174] zxing3_42.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (52,34) 154x160
+[139/174] zxing4_10.png: 1 QR codes found
+  QR#1: "Google Print Ads - T.G.I.A.F. - January 31, 2008" (40,44) 160x159
+[140/174] zxing4_11.png: 1 QR codes found
+  QR#1: "Google Print Ads - T.G.I.A.F. - January 31, 2008" (41,31) 154x159
+[141/174] zxing4_12.png: 1 QR codes found
+  QR#1: "Google Print Ads - T.G.I.A.F. - January 31, 2008" (28,33) 153x153
+[142/174] zxing4_13.png: 0 QR codes found
+[143/174] zxing4_14.png: 1 QR codes found
+  QR#1: "Google Print Ads - T.G.I.A.F. - January 31, 2008" (43,43) 144x146
+[144/174] zxing4_15.png: 1 QR codes found
+  QR#1: "http://code.google.com" (35,64) 156x149
+[145/174] zxing4_16.png: 1 QR codes found
+  QR#1: "http://code.google.com" (40,43) 157x159
+[146/174] zxing4_17.png: 1 QR codes found
+  QR#1: "http://code.google.com" (44,40) 158x162
+[147/174] zxing4_18.png: 1 QR codes found
+  QR#1: "http://code.google.com" (61,58) 124x126
+[148/174] zxing4_19.png: 1 QR codes found
+  QR#1: "http://code.google.com" (68,48) 117x118
+[149/174] zxing4_20.png: 1 QR codes found
+  QR#1: "http://code.google.com" (52,49) 146x153
+[150/174] zxing5_10.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (32,25) 193x183
+[151/174] zxing5_11.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (49,47) 164x160
+[152/174] zxing5_12.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (24,29) 168x176
+[153/174] zxing5_13.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (44,59) 156x140
+[154/174] zxing5_14.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (30,36) 175x176
+[155/174] zxing5_15.png: 1 QR codes found
+  QR#1: "MECARD:N:Sean Owen;TEL:+12125658770;EMAIL:srowen@google.com;;" (32,33) 179x184
+[156/174] zxing5_16.png: 1 QR codes found
+  QR#1: "THROUGH THE LOOKING-GLASS
+
+By Lewis Carroll
+
+
+CHAPTER I. Looking-Glass house
+
+One thing was certain, that the WHITE kitten had had nothing to do with
+it:--it was the black kitten's fault entirely. For the white kitten had
+been having its face washed by the old cat for the last quarter of
+an hour (and bearing it pretty well, considering); so you see that it
+COULDN'T have had any hand in the mischief.
+
+The way Dinah washed her children's faces was this: first she held the
+poor thing down by its ear with one paw, and then with the other paw she
+rubbed its face all over, the wrong way, beginning at the nose: and
+just now, as I said, she was hard at work on the white kitten, which was
+lying quite still and trying to purr--no doubt feeling that it was all
+meant for its good.
+
+But the black kitten had been finished with earlier in the afternoon,
+and so, while Alice was sitting curled up in a corner of the great
+arm-chair, half talking to herself and half asleep, the kitten had been
+having a grand game of romps with the ball of worsted Alice had been
+trying to wind up, and had been rolling it up and down till it had all
+come undone again; and there it was, spread over the hearth-rug, all
+knots and tangles, with the kitten running after its own tail in the
+middle.
+
+'Oh, you wicked little thing!' cried Alice, catching up the kitten, and
+giving it a little kiss to make it understand that it was in disgrace.
+'Really, Dinah ought to have taught you better manners! You OUGHT,
+Dinah, you know you ought!' she added, looking reproachfully at the old
+cat, and speaking in as cross a voice as she could manage--and then she
+scrambled back into the arm-chair, taking the kitten and the worsted
+with her, and began winding up the ball again. But she didn't get on
+very fast, as she was talking all the time, sometimes to the kitten, and
+sometimes to herself. Kitty sat very demurely on her knee, pretending to
+watch the progress of the winding, and now and then putting out one
+paw and gently touching the ball, as if it would be glad to help" (0,0) 177x177
+[157/174] zxing5_17.png: 1 QR codes found
+  QR#1: "THROUGH THE LOOKING-GLASS
+
+By Lewis Carroll
+
+
+CHAPTER I. Looking-Glass house
+
+One thing was certain, that the WHITE kitten had had nothing to do with
+it:--it was the black kitten's fault entirely. For the white kitten had
+been having its face washed by the old cat for the last quarter of
+an hour (and bearing it pretty well, considering); so you see that it
+COULDN'T have had any hand in the mischief.
+
+The way Dinah washed her children's faces was this: first she held the
+poor thing down by its ear with one paw, and then with the other paw she
+rubbed its face all over, the wrong way, beginning at the nose: and
+just now, as I said, she was hard at work on the white kitten, which was
+lying quite still and trying to purr--no doubt feeling that it was all
+meant for its good.
+
+But the black kitten had been finished with earlier in the afternoon,
+and so, while Alice was sitting curled up in a corner of the great
+arm-chair, half talking to herself and half asleep, the kitten had been
+having a grand game of romps with the ball of worsted Alice had been
+trying to wind up, and had been rolling it up and down till it had all
+come undone again; and there it was, spread over the hearth-rug, all
+knots and tangles, with the kitten running after its own tail in the
+middle.
+
+'Oh, you wicked little thing!' cried Alice, catching up the kitten, and
+giving it a little kiss to make it understand that it was in disgrace.
+'Really, Dinah ought to have taught you better manners! You OUGHT,
+Dinah, you know you ought!' she added, looking reproachfully at the old
+cat, and speaking in as cross a voice as she could manage--and then she
+scrambled back into the arm-chair, taking the kitten and the worsted
+with her, and began winding up the ball again. But she didn't get on
+very fast, as she was talking all the time, sometimes to the kitten, and
+sometimes to herself. Kitty sat very demurely on her knee, pretending to
+watch the progress of the winding, and now and then putting out one
+paw and gently touching the ball, as if it would be glad to help" (0,0) 177x177
+[158/174] zxing5_18.png: 1 QR codes found
+  QR#1: "THROUGH THE LOOKING-GLASS
+
+By Lewis Carroll
+
+
+CHAPTER I. Looking-Glass house
+
+One thing was certain, that the WHITE kitten had had nothing to do with
+it:--it was the black kitten's fault entirely. For the white kitten had
+been having its face washed by the old cat for the last quarter of
+an hour (and bearing it pretty well, considering); so you see that it
+COULDN'T have had any hand in the mischief.
+
+The way Dinah washed her children's faces was this: first she held the
+poor thing down by its ear with one paw, and then with the other paw she
+rubbed its face all over, the wrong way, beginning at the nose: and
+just now, as I said, she was hard at work on the white kitten, which was
+lying quite still and trying to purr--no doubt feeling that it was all
+meant for its good.
+
+But the black kitten had been finished with earlier in the afternoon,
+and so, while Alice was sitting curled up in a corner of the great
+arm-chair, half talking to herself and half asleep, the kitten had been
+having a grand game of romps with the ball of worsted Alice had been
+trying to wind up, and had been rolling it up and down till it had all
+come undone again; and there it was, spread over the hearth-rug, all
+knots and tangles, with the kitten running after its own tail in the
+middle.
+
+'Oh, you wicked little thing!' cried Alice, catching up the kitten, and
+giving it a little kiss to make it understand that it was in disgrace.
+'Really, Dinah ought to have taught you better manners! You OUGHT,
+Dinah, you know you ought!' she added, looking reproachfully at the old
+cat, and speaking in as cross a voice as she could manage--and then she
+scrambled back into the arm-ch
+
+" (0,0) 177x177
+[159/174] zxing5_19.png: 1 QR codes found
+  QR#1: "THROUGH THE LOOKING-GLASS
+
+By Lewis Carroll
+
+
+CHAPTER I. Looking-Glass house
+
+One thing was certain, that the WHITE kitten had had nothing to do with
+it:--it was the black kitten's fault entirely. For the white kitten had
+been having its face washed by the old cat for the last quarter of
+an hour (and bearing it pretty well, considering); so you see that it
+COULDN'T have had any hand in the mischief.
+
+The way Dinah washed her children's faces was this: first she held the
+poor thing down by its ear with one paw, and then with the other paw she
+rubbed its face all over, the wrong way, beginning at the nose: and
+just now, as I said, she was hard at work on the white kitten, which was
+lying quite still and trying to purr--no doubt feeling that it was all
+meant for its good.
+
+But the black kitten had been finished with earlier in the afternoon,
+and so, while Alice was sitting curled up in a corner of the great
+arm-chair, half talking to herself and half asleep, the kitten had been
+having a grand game of romps with the ball of worsted Alice had been
+trying to wind up, and had been rolling it up and down till it had all
+come undone again; and there it was, spread over the hearth-rug, all
+knots and tangles, with the kitten running after its own tail in the
+midd
+" (0,0) 177x177
+[160/174] zxing6_1.png: 1 QR codes found
+  QR#1: "1234567890" (207,207) 86x86
+[161/174] zxing6_10.png: 1 QR codes found
+  QR#1: "1234567890" (206,206) 87x86
+[162/174] zxing6_11.png: 1 QR codes found
+  QR#1: "1234567890" (206,206) 87x86
+[163/174] zxing6_12.png: 1 QR codes found
+  QR#1: "1234567890" (205,206) 89x87
+[164/174] zxing6_13.png: 1 QR codes found
+  QR#1: "1234567890" (206,205) 88x88
+[165/174] zxing6_14.png: 1 QR codes found
+  QR#1: "1234567890" (207,206) 88x88
+[166/174] zxing6_15.png: 1 QR codes found
+  QR#1: "TEST" (26,229) 716x743
+[167/174] zxing6_2.png: 1 QR codes found
+  QR#1: "1234567890" (206,207) 87x87
+[168/174] zxing6_3.png: 1 QR codes found
+  QR#1: "1234567890" (206,208) 86x85
+[169/174] zxing6_4.png: 1 QR codes found
+  QR#1: "1234567890" (207,208) 84x84
+[170/174] zxing6_5.png: 1 QR codes found
+  QR#1: "1234567890" (207,208) 84x84
+[171/174] zxing6_6.png: 1 QR codes found
+  QR#1: "1234567890" (193,193) 113x113
+[172/174] zxing6_7.png: 1 QR codes found
+  QR#1: "1234567890" (205,206) 88x88
+[173/174] zxing6_8.png: 1 QR codes found
+  QR#1: "1234567890" (208,207) 83x84
+[174/174] zxing6_9.png: 1 QR codes found
+  QR#1: "1234567890" (207,207) 85x84
+
+============================================
+Total: 174  Success: 163  Fail: 11  Error: 0
+Detection rate: 93.7%
+============================================
+
+Done.
